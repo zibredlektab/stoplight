@@ -1,9 +1,9 @@
-#define AIN 2
+#define AIN A1
 #define RED 3
 #define GREEN 4
 
-uint8_t battlvldivided;
-uint16_t battlvl;
+int battlvldivided;
+int battlvl;
 uint32_t lastblinktime = 0;
 bool blinkon = false;
 
@@ -15,25 +15,32 @@ void setup() {
 }
 
 void loop() {
+
+  
   // put your main code here, to run repeatedly:
   battlvldivided = analogRead(AIN); // 0-255
-  battlvl = map(battlvldivided, 0, 255, 0, 2015); // this...should map out??
+  battlvl = map(battlvldivided, 0, 1023, 0, 2015); // numbers below have been calibrated
 
   if (battlvl > 1300) { // 13v - 17v = green
-    digitalWrite(RED, 0);
-    digitalWrite(GREEN, 0);
-  } else if (battlvl > 1200) { // 12v - 13v = yellow
-    analogWrite(RED, 128);
-    analogWrite(GREEN, 128);
-  } else if (battlvl > 1150) { // 11.5 - 12v = red
-    digitalWrite(RED, 1);
-    digitalWrite(GREEN, 0);
+    analogWrite(RED, 255);
+    analogWrite(GREEN, 0);
+  } else if (battlvl > 1195) { // 12v - 13v = yellow
+    analogWrite(RED, 100);
+    analogWrite(GREEN, 100);
+  } else if (battlvl > 1170) { // 11.5 - 12v = red
+    analogWrite(RED, 0);
+    analogWrite(GREEN, 255);
   } else { // below 11.5 = flash
-    digitalWrite(GREEN, 0);
+    analogWrite(GREEN, 255);
 
     if (millis() >= lastblinktime + 1000) {
-      digitalWrite(RED, !blinkon);
-      blinkon = !blinkon;
+      if (blinkon) {
+        analogWrite(RED, 255);
+        blinkon = false;
+      } else {
+        analogWrite(RED, 0);
+        blinkon = true;
+      }
       lastblinktime = millis();
     }
   }
