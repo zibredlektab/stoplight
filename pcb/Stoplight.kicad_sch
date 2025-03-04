@@ -2560,7 +2560,7 @@
 	)
 	(global_label "MISO{slash}G"
 		(shape input)
-		(at 119.38 151.13 0)
+		(at 119.38 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2570,7 +2570,7 @@
 		)
 		(uuid "cb6facf5-b02a-4b4a-b325-f0cbbe2e6666")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.5619 151.13 0)
+			(at 129.5619 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,7 +2648,7 @@
 	)
 	(global_label "MOSI{slash}R"
 		(shape input)
-		(at 119.38 146.05 0)
+		(at 119.38 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2658,7 +2658,7 @@
 		)
 		(uuid "eb882978-c120-4c49-9049-f06a25232bc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.5619 146.05 0)
+			(at 129.5619 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
