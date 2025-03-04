@@ -1263,6 +1263,234 @@
 				)
 			)
 		)
+		(symbol "dk_Trimmer-Potentiometers:TC33X-2-103E"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "POT"
+				(at -5.334 4.318 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TC33X-2-103E"
+				(at 0.254 -2.794 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "digikey-footprints:Trimpot_3.8mmx3.6mm_TC33X-2-103E"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf"
+				(at 5.08 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "TRIMMER 10K OHM 0.1W J LEAD TOP"
+				(at 5.08 25.4 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "TC33X-2-103E"
+				(at 5.08 12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Category" "Potentiometers, Variable Resistors"
+				(at 5.08 15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Family" "Trimmer Potentiometers"
+				(at 5.08 17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Datasheet_Link" "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf"
+				(at 5.08 20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Detail_Page" "/product-detail/en/bourns-inc/TC33X-2-103E/TC33X-103ETR-ND/612858"
+				(at 5.08 22.86 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Bourns Inc."
+				(at 5.08 27.94 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at 5.08 30.48 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TC33X-103ETR-ND Trimpot® TC33 - Open Frame"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TC33X-2-103E_0_1"
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.175)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.175) (xy 0.635 3.175) (xy 0 1.905) (xy -0.635 3.175)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 1.27) (xy -1.27 -1.27) (xy -0.635 1.27) (xy 0 -1.27) (xy 0.635 1.27) (xy 1.27 -1.27)
+						(xy 1.905 1.27) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TC33X-2-103E_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "CCW"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "Wiper"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "CW"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+24V"
 			(power)
 			(pin_numbers hide)
@@ -1740,6 +1968,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 88.9) (xy 88.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc1d214-ea5f-449e-8fdb-fb8fb535b9d0")
+	)
+	(wire
+		(pts
 			(xy 200.66 43.18) (xy 200.66 38.1)
 		)
 		(stroke
@@ -1777,6 +2015,16 @@
 			(type default)
 		)
 		(uuid "23f5f3e8-6937-49ab-b430-9bdbf4aa234d")
+	)
+	(wire
+		(pts
+			(xy 81.28 91.44) (xy 95.25 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28425628-79d7-4e3b-883c-9f2292d7cc80")
 	)
 	(wire
 		(pts
@@ -1850,6 +2098,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 106.68) (xy 142.24 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5701e5bd-f584-4148-bf92-f982cee1d170")
+	)
+	(wire
+		(pts
 			(xy 118.11 146.05) (xy 119.38 146.05)
 		)
 		(stroke
@@ -1890,6 +2148,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 106.68) (xy 142.24 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7713756b-4790-4105-b60e-6f62da79397f")
+	)
+	(wire
+		(pts
+			(xy 127 106.68) (xy 124.46 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803c642b-ffd2-4dbb-8ef9-d19ca0844974")
+	)
+	(wire
+		(pts
 			(xy 85.09 33.02) (xy 87.63 33.02)
 		)
 		(stroke
@@ -1927,6 +2205,16 @@
 			(type default)
 		)
 		(uuid "8b68d38c-0665-451f-8017-67dfac155a59")
+	)
+	(wire
+		(pts
+			(xy 124.46 106.68) (xy 124.46 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed74a5a-4d79-44c9-928b-337922299baa")
 	)
 	(wire
 		(pts
@@ -1980,6 +2268,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 93.98) (xy 91.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da805b8c-ff1e-40e5-8212-87b4260bbf68")
+	)
+	(wire
+		(pts
 			(xy 200.66 38.1) (xy 217.17 38.1)
 		)
 		(stroke
@@ -2018,7 +2316,7 @@
 		)
 		(uuid "fafe9c80-9138-453b-94b6-c8300533818e")
 	)
-	(global_label "LED_R"
+	(global_label "DIM"
 		(shape input)
 		(at 81.28 96.52 0)
 		(fields_autoplaced yes)
@@ -2030,7 +2328,7 @@
 		)
 		(uuid "030f556d-61a9-4344-9270-11dbc087901c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.9499 96.52 0)
+			(at 87.5914 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +2338,7 @@
 			)
 		)
 	)
-	(global_label "MISO"
+	(global_label "MISO{slash}G"
 		(shape input)
 		(at 232.41 105.41 270)
 		(fields_autoplaced yes)
@@ -2052,7 +2350,7 @@
 		)
 		(uuid "03780990-e735-4a31-8b33-53ab5d4c24b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 112.9914 90)
+			(at 232.41 115.5919 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,9 +2360,9 @@
 			)
 		)
 	)
-	(global_label "SCK{slash}A1"
+	(global_label "SCK{slash}BATT"
 		(shape input)
-		(at 81.28 93.98 0)
+		(at 91.44 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2074,7 +2372,7 @@
 		)
 		(uuid "0a5f64b6-d39e-4f95-bf7f-ec063a5302cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.6433 93.98 0)
+			(at 103.799 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2106,6 +2404,50 @@
 			)
 		)
 	)
+	(global_label "RST"
+		(shape input)
+		(at 267.97 105.41 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e9f28b7-9e06-4d66-8e4f-b7658837834e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.97 111.8423 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIM"
+		(shape input)
+		(at 132.08 99.06 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31b1d559-4200-46ec-a85d-c902913cd4bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 92.7486 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+5V"
 		(shape input)
 		(at 66.04 81.28 90)
@@ -2128,7 +2470,29 @@
 			)
 		)
 	)
-	(global_label "SCK{slash}A1"
+	(global_label "+5V"
+		(shape input)
+		(at 124.46 104.14 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bda28785-0a9c-4196-820d-0c07fa851581")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.46 96.0748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK{slash}BATT"
 		(shape input)
 		(at 257.81 105.41 270)
 		(fields_autoplaced yes)
@@ -2140,7 +2504,7 @@
 		)
 		(uuid "be5de2f1-9d62-49c5-8693-38458800102d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.81 115.7733 90)
+			(at 257.81 117.769 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2150,7 +2514,7 @@
 			)
 		)
 	)
-	(global_label "SCK{slash}A1"
+	(global_label "SCK{slash}BATT"
 		(shape input)
 		(at 85.09 39.37 270)
 		(fields_autoplaced yes)
@@ -2162,7 +2526,7 @@
 		)
 		(uuid "c1df9d08-c201-4c21-94e4-9050a949db6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 49.7333 90)
+			(at 85.09 51.729 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +2558,7 @@
 			)
 		)
 	)
-	(global_label "LED_G"
+	(global_label "MISO{slash}G"
 		(shape input)
 		(at 119.38 151.13 0)
 		(fields_autoplaced yes)
@@ -2206,7 +2570,7 @@
 		)
 		(uuid "cb6facf5-b02a-4b4a-b325-f0cbbe2e6666")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.0499 151.13 0)
+			(at 129.5619 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2216,9 +2580,9 @@
 			)
 		)
 	)
-	(global_label "MOSI"
+	(global_label "MOSI{slash}R"
 		(shape input)
-		(at 81.28 88.9 0)
+		(at 88.9 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2228,29 +2592,7 @@
 		)
 		(uuid "d0a0f9bb-8d6d-4dc8-8976-c8b0489f68bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.8614 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_G"
-		(shape input)
-		(at 81.28 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d786cb33-5953-49eb-ad43-247848977daf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.9499 99.06 0)
+			(at 99.0819 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2282,9 +2624,9 @@
 			)
 		)
 	)
-	(global_label "MISO"
+	(global_label "MISO{slash}G"
 		(shape input)
-		(at 81.28 91.44 0)
+		(at 95.25 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2294,7 +2636,7 @@
 		)
 		(uuid "e1f3288c-a346-4e57-ae53-83bdf6bb6bbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.8614 91.44 0)
+			(at 105.4319 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2304,7 +2646,7 @@
 			)
 		)
 	)
-	(global_label "LED_R"
+	(global_label "MOSI{slash}R"
 		(shape input)
 		(at 119.38 146.05 0)
 		(fields_autoplaced yes)
@@ -2316,7 +2658,7 @@
 		)
 		(uuid "eb882978-c120-4c49-9049-f06a25232bc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.0499 146.05 0)
+			(at 129.5619 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2326,7 +2668,7 @@
 			)
 		)
 	)
-	(global_label "MOSI"
+	(global_label "MOSI{slash}R"
 		(shape input)
 		(at 246.38 105.41 270)
 		(fields_autoplaced yes)
@@ -2338,7 +2680,7 @@
 		)
 		(uuid "f9dd5dca-4e69-4a7b-b588-3348d1d45256")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.38 112.9914 90)
+			(at 246.38 115.5919 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2853,7 @@
 			)
 			(project "Stoplight"
 				(path "/dfe04a77-46d8-48da-bd63-07874d46d621"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2845,6 +3187,73 @@
 			(project "Stoplight"
 				(path "/dfe04a77-46d8-48da-bd63-07874d46d621"
 					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 267.97 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "51a320a8-092c-4ac6-977c-53511073f4b9")
+		(property "Reference" "TP8"
+			(at 270.51 100.8379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RST"
+			(at 270.51 103.3779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+			(at 273.05 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 267.97 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89e59596-4a3c-4cbe-958f-9289187beeb9")
+		)
+		(instances
+			(project "Stoplight"
+				(path "/dfe04a77-46d8-48da-bd63-07874d46d621"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -3370,7 +3779,151 @@
 			)
 			(project "Stoplight"
 				(path "/dfe04a77-46d8-48da-bd63-07874d46d621"
-					(reference "#PWR09")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dk_Trimmer-Potentiometers:TC33X-2-103E")
+		(at 132.08 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "971de3e6-7145-4ec0-8e68-1c0f8d51edb5")
+		(property "Reference" "POT1"
+			(at 132.08 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TC33X-2-103E"
+			(at 132.08 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:Trimpot_3.8mmx3.6mm_TC33X-2-103E"
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "TRIMMER 10K OHM 0.1W J LEAD TOP"
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TC33X-2-103E"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Potentiometers, Variable Resistors"
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "Trimmer Potentiometers"
+			(at 137.16 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf"
+			(at 137.16 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/bourns-inc/TC33X-2-103E/TC33X-103ETR-ND/612858"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns Inc."
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31282186-1d3f-4760-8d91-e2a7c1bc2046")
+		)
+		(pin "3"
+			(uuid "8779eec7-5a39-40c4-9daf-390da4f0c2f5")
+		)
+		(pin "2"
+			(uuid "b2d8204f-e719-4e94-bacb-f3023b01cc27")
+		)
+		(instances
+			(project "Stoplight"
+				(path "/dfe04a77-46d8-48da-bd63-07874d46d621"
+					(reference "POT1")
 					(unit 1)
 				)
 			)
@@ -3528,7 +4081,7 @@
 			)
 			(project "Stoplight"
 				(path "/dfe04a77-46d8-48da-bd63-07874d46d621"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3697,7 +4250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba907ac2-a133-409d-ae8f-8fcea946f0be")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 134.62 77.47 0)
 			(effects
 				(font
@@ -3747,7 +4300,7 @@
 		(instances
 			(project "Stoplight"
 				(path "/dfe04a77-46d8-48da-bd63-07874d46d621"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4039,6 +4592,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 142.24 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5b1bdb8-823b-436a-b319-596d083bb045")
+		(property "Reference" "#PWR08"
+			(at 142.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e82c4a3b-1ba2-4386-b963-25abc6b11e07")
+		)
+		(instances
+			(project "Stoplight"
+				(path "/dfe04a77-46d8-48da-bd63-07874d46d621"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 118.11 67.31 0)
 		(unit 1)
@@ -4257,7 +4876,7 @@
 			)
 			(project "Stoplight"
 				(path "/dfe04a77-46d8-48da-bd63-07874d46d621"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4329,7 +4948,7 @@
 			)
 			(project "Stoplight"
 				(path "/dfe04a77-46d8-48da-bd63-07874d46d621"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
