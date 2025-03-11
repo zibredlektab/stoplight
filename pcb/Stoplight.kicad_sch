@@ -801,92 +801,158 @@
 				)
 			)
 		)
-		(symbol "MCU_Microchip_ATtiny:ATtiny85-20M"
+		(symbol "dk_Embedded-Microcontrollers:ATTINY85-20SU"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -12.7 13.97 0)
+				(at -5.08 6.35 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Value" "ATtiny85-20M"
-				(at 2.54 -13.97 0)
+			(property "Value" "ATTINY85-20SU"
+				(at 6.35 5.08 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
+					(justify right)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+			(property "Footprint" "digikey-footprints:SOIC-8_W5.3mm"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589894"
+				(at 5.08 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC MCU 8BIT 8KB FLASH 8SOIC"
+				(at 5.08 25.4 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ATTINY85-20SU"
+				(at 5.08 12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Category" "Integrated Circuits (ICs)"
+				(at 5.08 15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Family" "Embedded - Microcontrollers"
+				(at 5.08 17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Datasheet_Link" "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589894"
+				(at 5.08 20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Detail_Page" "/product-detail/en/microchip-technology/ATTINY85-20SU/ATTINY85-20SU-ND/735470"
+				(at 5.08 22.86 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Microchip Technology"
+				(at 5.08 27.94 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at 5.08 30.48 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ATTINY85-20SU-ND AVR® ATtiny"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, QFN-20"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "AVR 8bit Microcontroller tinyAVR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "QFN*1EP*4x4mm*P0.5mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ATtiny85-20M_0_1"
+			(symbol "ATTINY85-20SU_0_1"
 				(rectangle
-					(start -12.7 -12.7)
-					(end 12.7 12.7)
+					(start -5.08 5.08)
+					(end 5.08 -12.7)
 					(stroke
-						(width 0.254)
-						(type default)
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type background)
 					)
 				)
 			)
-			(symbol "ATtiny85-20M_1_1"
+			(symbol "ATTINY85-20SU_1_1"
 				(pin bidirectional line
-					(at 15.24 -5.08 180)
+					(at -7.62 -10.16 0)
 					(length 2.54)
-					(name "~{RESET}/PB5"
+					(name "PB5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -901,190 +967,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -12.7 -2.54 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
-					(at 15.24 7.62 180)
+					(at -7.62 -5.08 0)
 					(length 2.54)
-					(name "AREF/PB0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 5.08 180)
-					(length 2.54)
-					(name "PB1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 -5.08 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 2.54 180)
-					(length 2.54)
-					(name "PB2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 -7.62 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 -10.16 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 -12.7 90)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -5.08 -12.7 90)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "XTAL1/PB3"
+					(name "PB3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1099,46 +985,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -2.54 -12.7 90)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 10.16 0)
-					(length 2.54) hide
-					(name "NC"
+				(pin bidirectional line
+					(at -7.62 -7.62 0)
+					(length 2.54)
+					(name "PB4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1153,10 +1003,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -12.7 7.62 0)
-					(length 2.54) hide
-					(name "NC"
+				(pin power_in line
+					(at 2.54 -15.24 90)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1172,9 +1022,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -2.54 180)
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "XTAL2/PB4"
+					(name "PB0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1189,10 +1039,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -12.7 5.08 0)
-					(length 2.54) hide
-					(name "NC"
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "PB1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1207,10 +1057,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -12.7 2.54 0)
-					(length 2.54) hide
-					(name "NC"
+				(pin bidirectional line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "PB2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1226,9 +1076,9 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -15.24 90)
+					(at 2.54 7.62 270)
 					(length 2.54)
-					(name "GND"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1236,24 +1086,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 0 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1968,16 +1800,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 88.9) (xy 88.9 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bc1d214-ea5f-449e-8fdb-fb8fb535b9d0")
-	)
-	(wire
-		(pts
 			(xy 200.66 43.18) (xy 200.66 38.1)
 		)
 		(stroke
@@ -2015,16 +1837,6 @@
 			(type default)
 		)
 		(uuid "23f5f3e8-6937-49ab-b430-9bdbf4aa234d")
-	)
-	(wire
-		(pts
-			(xy 81.28 91.44) (xy 95.25 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28425628-79d7-4e3b-883c-9f2292d7cc80")
 	)
 	(wire
 		(pts
@@ -2238,6 +2050,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 81.28) (xy 66.04 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30a57e3-d4f0-4fe9-90df-b07054248a0c")
+	)
+	(wire
+		(pts
 			(xy 190.5 38.1) (xy 200.66 38.1)
 		)
 		(stroke
@@ -2265,16 +2087,6 @@
 			(type default)
 		)
 		(uuid "cc4b19ad-d117-408c-8c6c-23d774b0225d")
-	)
-	(wire
-		(pts
-			(xy 81.28 93.98) (xy 91.44 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da805b8c-ff1e-40e5-8212-87b4260bbf68")
 	)
 	(wire
 		(pts
@@ -2318,22 +2130,22 @@
 	)
 	(global_label "DIM"
 		(shape input)
-		(at 81.28 96.52 0)
+		(at 55.88 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "030f556d-61a9-4344-9270-11dbc087901c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.5914 96.52 0)
+			(at 49.5686 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2362,22 +2174,22 @@
 	)
 	(global_label "SCK{slash}BATT"
 		(shape input)
-		(at 91.44 93.98 0)
+		(at 55.88 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0a5f64b6-d39e-4f95-bf7f-ec063a5302cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.799 93.98 0)
+			(at 43.521 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2538,22 +2350,22 @@
 	)
 	(global_label "RST"
 		(shape input)
-		(at 81.28 101.6 0)
+		(at 55.88 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c43e5a2e-acd5-458e-bb31-c7f9bd7c980c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.7123 101.6 0)
+			(at 49.4477 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2582,22 +2394,22 @@
 	)
 	(global_label "MOSI{slash}R"
 		(shape input)
-		(at 88.9 88.9 0)
+		(at 55.88 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d0a0f9bb-8d6d-4dc8-8976-c8b0489f68bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.0819 88.9 0)
+			(at 45.6981 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2626,22 +2438,22 @@
 	)
 	(global_label "MISO{slash}G"
 		(shape input)
-		(at 95.25 91.44 0)
+		(at 55.88 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e1f3288c-a346-4e57-ae53-83bdf6bb6bbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.4319 91.44 0)
+			(at 45.6981 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2708,7 +2520,7 @@
 				)
 			)
 		)
-		(property "Value" "AP7375-33SA-7"
+		(property "Value" "AP7375-50SA-7"
 			(at 231.14 33.02 0)
 			(effects
 				(font
@@ -2716,7 +2528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AP7375-33SA-7:SOT96P240X110-3N"
+		(property "Footprint" "AP7375-50SA-7"
 			(at 241.3 133.02 0)
 			(effects
 				(font
@@ -2736,7 +2548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LDO Voltage Regulators LDO CMOS LowCurr SOT23 T&R 3K"
+		(property "Description" "LDO Voltage Regulators LDO CMOS LowCurr SOT23"
 			(at 217.17 38.1 0)
 			(effects
 				(font
@@ -2745,7 +2557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "AP7375-33SA-7"
+		(property "Part Number" "AP7375-50SA-7"
 			(at 217.17 38.1 0)
 			(effects
 				(font
@@ -2754,7 +2566,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.com/en/products/detail/diodes-incorporated/AP7375-33SA-7/16400213?s=N4IgTCBcDaIIIAUDsBmJBWAtClBlOmSIAugL5A"
+		(property "URL" "https://www.digikey.com/en/products/detail/diodes-incorporated/AP7375-50SA-7/16400218?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRABYwBmKsADhAF0CAHAFyhAGU2AnASwB2AcxABfApQQhkkdNnxFSIKuQDs5Wk1YdI3PkNESQsAJzTZ83AWKQy5AAymqz7SHaceAkeIIAmAFY-C1RMayU7ED8wP3I6CGZ3XX1vI38AgJC5MMVbMio6Uwcwc0SPPS9DXxAAtSosq1zlPxaaBJ1PAx9jMAdYTOgZUIUbZXakzgARQgBXACMMHGqY0whByxzRyMcAx1KOiq608HI-c3Xh8LzwN3KUqp61NXOkS6bI2NW1cbvK7oJ6HQHA1NhF8lQAnQIbdkn9jiUniCRmCbmVYUdlqZCkirspgYxjH4%2BvALtlkdcCn46OoYZ1UtU-GoHMDSY0tmQfuj6cYALRrV5k3GRLQEgg88g494c2KtJi8gYCtkoiD%2BED%2BTRysVqSXskDfNR0eJ4EViU1AA"
 			(at 217.17 38.1 0)
 			(effects
 				(font
@@ -3947,7 +3759,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K .1%"
 			(at 78.74 29.21 90)
 			(effects
 				(font
@@ -3982,7 +3794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-1GNF64R9C"
+		(property "Part Number" "ERA-1AEB103C"
 			(at 78.74 33.02 0)
 			(effects
 				(font
@@ -3991,7 +3803,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-1GNF64R9C/2035977"
+		(property "URL" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-1AEB103C/5035568"
 			(at 78.74 33.02 0)
 			(effects
 				(font
@@ -4105,7 +3917,7 @@
 				)
 			)
 		)
-		(property "Value" "3K3"
+		(property "Value" "3K3 0.1%"
 			(at 91.44 29.21 90)
 			(effects
 				(font
@@ -4140,7 +3952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-1GNF64R9C"
+		(property "Part Number" "ERA-1AEB332C"
 			(at 91.44 33.02 0)
 			(effects
 				(font
@@ -4149,7 +3961,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-1GNF64R9C/2035977"
+		(property "URL" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-1AEB332C/13149156?s=N4IgjCBcoExaBjKAzAhgGwM4FMA0IB7KAbRAHYBWGAFhAF18AHAFyhAGVmAnASwDsA5iAC%2B%2BAMzwQSSGix5CJcmIgMQLNp16CR%2BCpOmyc%2BIpFLKAbAE4wtVesgdu-IaPDn9KDEYWmQYywAMZAAc9EysDprOOuBkHjJe8iakMAFgenYRjlou%2BNTu0FKecsaKFNTpYWpZUdquYGS0hQaJpb4VDebumRpOdfgwVPGGSYo0MJZituG9OTFkQcOtPqQqM5F9ueBgMHHNxd7JIHA9DgAiBACuAEbo2DE71kslK36BZHGn2dH1FAEBz0OinyFE%2B62%2B-XAFGUgNGvjW1VmP3wYEswUssLapABdFcqWCen2CReRzEADoxAACADWAHkABYAW0wVXsIAAqnweMxacgALLYVCYS5ce6uAC0ECJIyx4BxEqaiAOcNI%2BX%2B8vw4sJSuJQPhIAGBuO1AkuM1ex1Mte5gClkmZFwYHlwmEQA"
 			(at 91.44 33.02 0)
 			(effects
 				(font
@@ -4393,8 +4205,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_Microchip_ATtiny:ATtiny85-20M")
-		(at 66.04 96.52 0)
+		(lib_id "dk_Embedded-Microcontrollers:ATTINY85-20SU")
+		(at 63.5 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4403,80 +4215,125 @@
 		(fields_autoplaced yes)
 		(uuid "c90c861d-c934-4e9f-8e01-5df8fb5a9e7e")
 		(property "Reference" "IC1"
-			(at 52.07 95.2499 0)
+			(at 69.85 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "ATtiny85-20M"
-			(at 52.07 97.7899 0)
+			(at 69.85 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
-			(at 66.04 96.52 0)
+		(property "Footprint" "digikey-footprints:SOIC-8_W5.3mm"
+			(at 68.58 91.44 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(italic yes)
+					(size 1.524 1.524)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf"
-			(at 66.04 96.52 0)
+		(property "Datasheet" "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589894"
+			(at 68.58 88.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, QFN-20"
-			(at 66.04 96.52 0)
+		(property "Description" "IC MCU 8BIT 8KB FLASH 8SOIC"
+			(at 68.58 71.12 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ATTINY85-20SU"
+			(at 68.58 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Integrated Circuits (ICs)"
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "Embedded - Microcontrollers"
+			(at 68.58 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589894"
+			(at 68.58 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/microchip-technology/ATTINY85-20SU/ATTINY85-20SU-ND/735470"
+			(at 68.58 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 68.58 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 68.58 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(pin "8"
 			(uuid "a21cd5ed-d77d-4ad0-a7f9-8099b0096c39")
-		)
-		(pin "9"
-			(uuid "36969cb9-9069-4921-8411-c4cbcb9ff28c")
-		)
-		(pin "16"
-			(uuid "fb153396-5848-4b12-aa8c-b1e48d25b07e")
-		)
-		(pin "17"
-			(uuid "32b76f39-42fd-4ae2-a705-d31606140693")
-		)
-		(pin "15"
-			(uuid "e0fa2d8d-e975-45bf-bb6a-f0a25098fd02")
-		)
-		(pin "18"
-			(uuid "cbb1e47e-5ea8-4e59-b67c-0c90ca7a0a79")
-		)
-		(pin "19"
-			(uuid "e909d64b-5b90-49f7-a652-3b5468837e8d")
-		)
-		(pin "13"
-			(uuid "4faa2c59-4beb-44bc-b0b8-4005dbacef2b")
-		)
-		(pin "11"
-			(uuid "c43f770d-33c7-4089-8ca8-72a1de1c51be")
-		)
-		(pin "10"
-			(uuid "f0840ee4-a8bb-4a96-8335-d58dcf27e851")
 		)
 		(pin "1"
 			(uuid "c375c604-29df-4256-adb0-ec72e429b223")
@@ -4487,29 +4344,17 @@
 		(pin "5"
 			(uuid "bfc8d138-0fdf-45e0-9517-bd1bf5d358d7")
 		)
-		(pin "12"
-			(uuid "2208409d-06e1-479b-99c6-244b40bf05e4")
-		)
 		(pin "6"
 			(uuid "c98a8677-a266-4a97-b7c0-eb88d8bae202")
 		)
 		(pin "7"
 			(uuid "98d96650-9c41-4d6b-8bcf-cb5da3d919f1")
 		)
-		(pin "14"
-			(uuid "3b2397e3-8a7a-4e7e-8eb1-f860d71ea728")
-		)
-		(pin "21"
-			(uuid "b5b2d4cc-a2ac-4951-abe4-7c2d2b1a27ba")
-		)
 		(pin "3"
 			(uuid "26576602-715b-4bd2-9620-44c841d1dbbf")
 		)
 		(pin "2"
 			(uuid "b4aebf1a-c6fa-42d9-9c29-771d1df0d30e")
-		)
-		(pin "20"
-			(uuid "55c9a613-986d-4aeb-8d21-0953b7aa77dc")
 		)
 		(instances
 			(project "Stoplight"
@@ -4565,6 +4410,24 @@
 			)
 		)
 		(property "Description" "Dual LED, common cathode on pin 3"
+			(at 102.87 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/en/products/detail/kingbright/WP59SURKZGW/12675449"
+			(at 102.87 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WP59SURKZGW"
 			(at 102.87 148.59 0)
 			(effects
 				(font
