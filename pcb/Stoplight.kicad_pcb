@@ -351,7 +351,7 @@
 		(at 132.45 82.9)
 		(descr "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet-Summary.pdf")
 		(property "Reference" "IC1"
-			(at 0 -4.25 0)
+			(at 0.35 -0.8 0)
 			(layer "F.SilkS")
 			(uuid "f24f7d9a-c58b-4053-84e4-53b6fd8dc979")
 			(effects
@@ -774,7 +774,7 @@
 		(at 127.3 85.3 180)
 		(descr "http://www.bourns.com/docs/Product-Datasheets/TC33.pdf")
 		(property "Reference" "POT1"
-			(at 0 -3.54 180)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(uuid "6c27c3bc-0518-463d-a165-5d77e1f31fff")
 			(effects
@@ -2212,7 +2212,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0.75 1.55 0)
+			(at -0.618279 1.1 0)
 			(layer "F.SilkS")
 			(uuid "e4eff24b-721e-44eb-b4e9-f9b5183535c7")
 			(effects
@@ -2222,7 +2222,7 @@
 				)
 			)
 		)
-		(property "Value" "65"
+		(property "Value" "150"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d7c62d81-35a2-40af-8801-6547dbbbc8d1")
@@ -2269,7 +2269,7 @@
 				)
 			)
 		)
-		(property "Part Number" "ERJ-1GNF64R9C"
+		(property "Part Number" "ERA-3AEB151V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2282,7 +2282,7 @@
 				)
 			)
 		)
-		(property "URL" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-1GNF64R9C/2035977"
+		(property "URL" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-3AEB151V/1465834"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2448,7 +2448,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at -0.85 -1.35 360)
+			(at 1.65 0.05 0)
 			(layer "F.SilkS")
 			(uuid "e0fc08d2-87b7-4158-95bf-66248b772524")
 			(effects
@@ -2459,7 +2459,7 @@
 			)
 		)
 		(property "Value" "3K3 0.1%"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b2372cb1-87e2-4af5-9c4a-81a33e04ebb4")
 			(effects
@@ -2637,7 +2637,7 @@
 			(uuid "3f3e041a-3909-49d6-a9cb-312a76e5aff7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "119b6cdc-eec9-4e70-8f3c-4f64d96ce448")
 			(effects
@@ -2684,7 +2684,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 1.95 0 90)
+			(at -0.15 1.1 180)
 			(layer "F.SilkS")
 			(uuid "a27bdb4a-5b09-4313-9b57-29673c426544")
 			(effects
@@ -2694,7 +2694,7 @@
 				)
 			)
 		)
-		(property "Value" "65"
+		(property "Value" "85"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "11cfc088-51f9-4253-bbbc-e345db703741")
@@ -2741,7 +2741,7 @@
 				)
 			)
 		)
-		(property "Part Number" "ERJ-1GNF64R9C"
+		(property "Part Number" "ERJ-3EKF84R5V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2754,7 +2754,7 @@
 				)
 			)
 		)
-		(property "URL" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-1GNF64R9C/2035977"
+		(property "URL" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-3EKF84R5V/196495"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3184,7 +3184,7 @@
 		(descr "SOT23_")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC2"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "90825ed8-c660-48b0-acc0-3ba11e416f38")
@@ -3196,7 +3196,7 @@
 			)
 		)
 		(property "Value" "AP7375-33SA-7"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cb1def7f-a7c5-4ff4-95fa-441b416da036")
@@ -3208,7 +3208,7 @@
 			)
 		)
 		(property "Footprint" "AP7375-33SA-7:SOT96P240X110-3N"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "971886c1-20b6-4da6-99dd-653405cd1c52")
@@ -3220,7 +3220,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP7375.pdf"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ccb83366-723c-439c-a0c2-8364f0fd327d")
@@ -3232,7 +3232,7 @@
 			)
 		)
 		(property "Description" "LDO Voltage Regulators LDO CMOS LowCurr SOT23 T&R 3K"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3d756846-13fd-4ed7-9a71-ea0c160fe484")
@@ -3414,7 +3414,7 @@
 			(uuid "95a2dbb6-00d7-42c6-a6d4-17c5ad198e4e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "17005ae2-37ff-44d2-be6b-c1585fa61964")
 			(effects
@@ -3734,7 +3734,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -1.43 90)
+			(at 1.4 0 180)
 			(layer "F.SilkS")
 			(uuid "79db324c-ffe5-4283-8ead-07125b9f716c")
 			(effects
@@ -3745,7 +3745,7 @@
 			)
 		)
 		(property "Value" "10K .1%"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "2c32784e-4827-46af-be37-a4b07a84dbd5")
 			(effects
@@ -3923,7 +3923,7 @@
 			(uuid "a7c8a9bb-d63f-4347-94ee-04a901de99e2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "afd691a8-bf57-4ef6-9b67-a9ae3faecdee")
 			(effects
@@ -3970,7 +3970,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at -0.1 0.6 -90)
+			(at -1.4 -0.75 0)
 			(layer "F.SilkS")
 			(uuid "4ada83b1-3860-46c0-a739-03809f4b2227")
 			(effects
@@ -3980,7 +3980,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF,100V"
+		(property "Value" "2.2uF, 50V"
 			(at 0 1.68 180)
 			(layer "F.Fab")
 			(uuid "0a908a1b-0a68-4944-8efc-481842c0e2a8")
@@ -4040,7 +4040,7 @@
 				)
 			)
 		)
-		(property "URL" "https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7R2A225K125AC/20482638"
+		(property "URL" "https://www.digikey.com/en/products/detail/taiyo-yuden/UMK212BB7225KG-T/3194965"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4206,7 +4206,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.16 90)
+			(at -1.3 -0.85 180)
 			(layer "F.SilkS")
 			(uuid "09d766b5-26b6-4b01-b10e-95572d149f16")
 			(effects
@@ -4217,7 +4217,7 @@
 			)
 		)
 		(property "Value" "22uF,10V+"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "b1d31509-846d-46c0-a7f0-6bd5dcf8d234")
 			(effects
@@ -4263,7 +4263,7 @@
 				)
 			)
 		)
-		(property "Part Number" "GRM158R61A226ME15D"
+		(property "Part Number" "GMC04X5R226M10NT"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4276,7 +4276,7 @@
 				)
 			)
 		)
-		(property "URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRM158R61A226ME15D/16033379"
+		(property "URL" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC04X5R226M10NT/23571654"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4395,7 +4395,7 @@
 			(uuid "35246a02-e86f-4e3a-a5e6-8259d2e7daca")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8a6e5fe2-5d7b-4424-b0f8-9a366700ce22")
 			(effects
@@ -5040,6 +5040,18 @@
 		(layer "Edge.Cuts")
 		(uuid "fa1e2ab9-cb7f-4135-8dea-d1b9d232cf66")
 	)
+	(gr_text "Stoplight v1\nMax Batchelder"
+		(at 139.4 83.1 0)
+		(layer "B.SilkS")
+		(uuid "2bdb655c-fc23-458c-802a-36c5c25030e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "+5V"
 		(at 126.95 89.335 -90)
 		(layer "B.SilkS")
@@ -5053,7 +5065,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 127.5135 89.55 -90)
+		(at 139 89.5 0)
 		(layer "B.SilkS")
 		(uuid "683a251c-d36d-4f56-b28a-2585549e456d")
 		(effects
@@ -5113,7 +5125,7 @@
 		)
 	)
 	(gr_text "VBATT"
-		(at 127.586 84.6 -90)
+		(at 136.8 90.3 0)
 		(layer "B.SilkS")
 		(uuid "a4d9cf5f-645c-45e9-8e82-77365233ad65")
 		(effects
@@ -5185,7 +5197,7 @@
 		)
 	)
 	(gr_text "VBATT"
-		(at 128.2275 84.6 90)
+		(at 134.6 90.3 0)
 		(layer "F.SilkS")
 		(uuid "ca2699c7-76ee-4b95-879d-b85905e46d29")
 		(effects
@@ -5197,7 +5209,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 128.3 89.55 90)
+		(at 137.4 89.4 0)
 		(layer "F.SilkS")
 		(uuid "decbcd6b-7654-4fb1-bd8d-a39f952af8cb")
 		(effects
@@ -5705,6 +5717,22 @@
 		(uuid "91656191-e8d0-49e9-b538-ec776172f573")
 	)
 	(segment
+		(start 129.65 90.85)
+		(end 130.425 90.075)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "28fa3a85-219b-439b-97f5-c6ef64fc636f")
+	)
+	(segment
+		(start 131.325 89.3)
+		(end 132.275 89.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "80d1ec3d-f64a-4ae2-8cf5-c343f8bd85df")
+	)
+	(segment
 		(start 134.915 84.805)
 		(end 134.04 85.68)
 		(width 0.2)
@@ -5721,20 +5749,20 @@
 		(uuid "a0525d23-584d-4bff-bd01-35e8fa7efec3")
 	)
 	(segment
-		(start 128.84 90.85)
-		(end 130.725 90.85)
+		(start 131.037648 90.075)
+		(end 131.325 89.787648)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 7)
-		(uuid "be13cfd0-4784-4c34-b0de-e898b1d9229a")
+		(uuid "a4cdb9c8-3f2b-4e6d-829e-77da5449f785")
 	)
 	(segment
-		(start 130.725 90.85)
-		(end 132.275 89.3)
+		(start 128.84 90.85)
+		(end 129.65 90.85)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 7)
-		(uuid "dddb2936-1cc2-4e0d-aa6e-3c5513a8196e")
+		(uuid "bde485a0-50fa-4c63-a373-e50bf2ed6d5e")
 	)
 	(segment
 		(start 128.805 90.815)
@@ -5742,7 +5770,23 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net 7)
-		(uuid "f6e4cfc8-d535-46cb-9ded-37f4556e2393")
+		(uuid "c308a1f7-d801-4fac-91db-3a2f25d3fcaa")
+	)
+	(segment
+		(start 131.325 89.787648)
+		(end 131.325 89.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "d49c096a-a54f-4ab1-a22f-d1a00ab4a2bb")
+	)
+	(segment
+		(start 130.425 90.075)
+		(end 131.037648 90.075)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "d60d2c48-416f-453a-8e5e-1447423164dd")
 	)
 	(segment
 		(start 134.04 87.535)
@@ -5793,6 +5837,22 @@
 		(uuid "840137f5-20c8-4df3-b1b1-bcd756fd8fc5")
 	)
 	(segment
+		(start 134.312543 90.430736)
+		(end 135.443279 89.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 9)
+		(uuid "1609ffab-5589-47ef-83f5-83cc54f9eca8")
+	)
+	(segment
+		(start 130.850939 90.549061)
+		(end 131.165279 90.549061)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 9)
+		(uuid "2045bd89-998a-4a1e-9898-4e8cff5d05fd")
+	)
+	(segment
 		(start 136.15 84.45)
 		(end 136.15 85.55)
 		(width 0.2)
@@ -5825,6 +5885,14 @@
 		(uuid "454555f6-d3a7-4cee-afd6-2ce7d156f36b")
 	)
 	(segment
+		(start 128.84 93.05)
+		(end 128.84 92.56)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 9)
+		(uuid "522be7f7-06c9-4b4b-a87d-5748a9c26a70")
+	)
+	(segment
 		(start 135.535 84.155)
 		(end 135.9 84.155)
 		(width 0.2)
@@ -5833,28 +5901,12 @@
 		(uuid "62a3563e-6a81-405e-a750-1efe58d5526a")
 	)
 	(segment
-		(start 129.1 93.05)
-		(end 131.652433 90.497567)
+		(start 128.84 92.56)
+		(end 130.850939 90.549061)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 9)
-		(uuid "7eee3a6a-6a12-4601-be35-18aeeb925265")
-	)
-	(segment
-		(start 134.245712 90.497567)
-		(end 135.443279 89.3)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 9)
-		(uuid "8d9bc43f-78fe-4653-9ff6-e8aadbc08156")
-	)
-	(segment
-		(start 131.652433 90.497567)
-		(end 134.245712 90.497567)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 9)
-		(uuid "9e24341d-14dc-4325-bc46-3f7b0feb16ea")
+		(uuid "7f701fba-ac36-4d80-82d1-881cf6007880")
 	)
 	(segment
 		(start 136.15 85.55)
@@ -5870,15 +5922,23 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net 9)
-		(uuid "d508aee8-c5ea-44bd-95dc-4a5d05c65535")
+		(uuid "b9f46588-ff2d-48e3-855e-09bff86a2b2e")
 	)
 	(segment
-		(start 128.84 93.05)
-		(end 129.1 93.05)
+		(start 131.283604 90.430736)
+		(end 134.312543 90.430736)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 9)
-		(uuid "e1758f9c-60a4-4375-9be2-4ec2a237fa45")
+		(uuid "c37e6007-8d1b-4910-8b64-97b557e39843")
+	)
+	(segment
+		(start 131.165279 90.549061)
+		(end 131.283604 90.430736)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 9)
+		(uuid "de90a097-a98c-4c0d-a830-f6806f36a8f8")
 	)
 	(segment
 		(start 136.45 85.85)
@@ -6015,13 +6075,12 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 134.299983 90.851361) (xy 134.353838 90.859754) (xy 134.406099 90.906128) (xy 134.425 90.971933)
-				(xy 134.425 91) (xy 135.284314 91) (xy 135.27992 91.004394) (xy 135.227259 91.095606) (xy 135.2 91.197339)
-				(xy 135.2 91.302661) (xy 135.227259 91.404394) (xy 135.27992 91.495606) (xy 135.284314 91.5) (xy 134.413249 91.5)
-				(xy 134.377807 91.519352) (xy 134.308116 91.514366) (xy 134.252183 91.472493) (xy 134.232187 91.432121)
-				(xy 134.180582 91.25075) (xy 134.180048 91.249678) (xy 134.089671 91.068175) (xy 134.073524 91.046793)
-				(xy 134.048832 90.981432) (xy 134.063397 90.913098) (xy 134.112595 90.863485) (xy 134.172478 90.848067)
-				(xy 134.299983 90.848067)
+				(xy 134.368039 90.800921) (xy 134.413794 90.853725) (xy 134.425 90.905236) (xy 134.425 91) (xy 135.284314 91)
+				(xy 135.27992 91.004394) (xy 135.227259 91.095606) (xy 135.2 91.197339) (xy 135.2 91.302661) (xy 135.227259 91.404394)
+				(xy 135.27992 91.495606) (xy 135.284314 91.5) (xy 134.413249 91.5) (xy 134.377807 91.519352) (xy 134.308116 91.514366)
+				(xy 134.252183 91.472493) (xy 134.232187 91.432121) (xy 134.180582 91.25075) (xy 134.180048 91.249678)
+				(xy 134.10333 91.095606) (xy 134.089673 91.068179) (xy 134.023054 90.979961) (xy 133.998363 90.914602)
+				(xy 134.012928 90.846267) (xy 134.062125 90.796655) (xy 134.122009 90.781236) (xy 134.301 90.781236)
 			)
 		)
 		(filled_polygon
