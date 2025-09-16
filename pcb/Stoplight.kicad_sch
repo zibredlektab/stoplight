@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "dfe04a77-46d8-48da-bd63-07874d46d621")
 	(paper "A4")
 	(lib_symbols
@@ -173,11 +173,209 @@
 					)
 				)
 			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 2.54 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
+				(at 2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Cortex Debug Connector ARM SWD JTAG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TC2030*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_ARM_SWD_TagConnect_TC2030-NL_0_0"
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TCK" output line)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TMS" bidirectional line)
+				)
+				(pin input line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "SWO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TDO" input line)
+				)
+			)
+			(symbol "Conn_ARM_SWD_TagConnect_TC2030-NL_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -275,9 +473,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -350,7 +551,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -362,7 +563,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -411,15 +612,18 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED_Dual_AAK"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.715 0)
+			(property "Reference" "D1"
+				(at 0.0635 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -427,14 +631,14 @@
 				)
 			)
 			(property "Value" "LED_Dual_AAK"
-				(at 0 -6.35 0)
+				(at 0.0635 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LED_THT:LED_D5.0mm-3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -453,6 +657,24 @@
 				)
 			)
 			(property "Description" "Dual LED, common cathode on pin 3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "URL" "https://www.digikey.com/en/products/detail/kingbright/WP59SURKZGW/12675449"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "WP59SURKZGW"
 				(at 0 0 0)
 				(effects
 					(font
@@ -480,6 +702,18 @@
 				)
 			)
 			(symbol "LED_Dual_AAK_0_1"
+				(polyline
+					(pts
+						(xy -4.572 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center -2.54 0)
 					(radius 0.2794)
@@ -493,10 +727,10 @@
 				)
 				(polyline
 					(pts
-						(xy -4.572 0) (xy -2.54 0)
+						(xy -1.27 1.27) (xy -1.27 3.81)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -515,9 +749,20 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 0)
+					(radius 4.572)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 3.81)
+						(xy 1.27 1.27) (xy 1.27 3.81) (xy -1.27 2.54) (xy 1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -529,7 +774,43 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 -2.54) (xy 1.905 -2.54)
+						(xy 1.27 -3.81) (xy 1.27 -1.27) (xy -1.27 -2.54) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 5.08) (xy 3.556 6.604) (xy 2.794 6.604) (xy 3.556 6.604) (xy 3.556 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy 2.032 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 4.064) (xy 4.826 5.588) (xy 4.064 5.588) (xy 4.826 5.588) (xy 4.826 4.826)
 					)
 					(stroke
 						(width 0)
@@ -553,31 +834,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -3.81) (xy 1.27 -1.27) (xy -1.27 -2.54) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 3.81) (xy -1.27 2.54) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy 2.032 -2.54)
+						(xy 3.81 -2.54) (xy 1.905 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -585,45 +842,28 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 5.08) (xy 3.556 6.604) (xy 2.794 6.604) (xy 3.556 6.604) (xy 3.556 5.842)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 4.064) (xy 4.826 5.588) (xy 4.064 5.588) (xy 4.826 5.588) (xy 4.826 4.826)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 4.572)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
 			(symbol "LED_Dual_AAK_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.048)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at 7.62 2.54 180)
 					(length 3.81)
@@ -652,24 +892,6 @@
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.048)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "3"
 						(effects
 							(font
@@ -679,9 +901,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -800,6 +1025,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "dk_Embedded-Microcontrollers:ATTINY85-20SU"
 			(pin_names
@@ -950,78 +1176,6 @@
 			)
 			(symbol "ATTINY85-20SU_1_1"
 				(pin bidirectional line
-					(at -7.62 -10.16 0)
-					(length 2.54)
-					(name "PB5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -7.62 -5.08 0)
-					(length 2.54)
-					(name "PB3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -7.62 -7.62 0)
-					(length 2.54)
-					(name "PB4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at -7.62 2.54 0)
 					(length 2.54)
 					(name "PB0"
@@ -1075,6 +1229,60 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "PB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -7.62 0)
+					(length 2.54)
+					(name "PB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -10.16 0)
+					(length 2.54)
+					(name "PB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 2.54 7.62 270)
 					(length 2.54)
@@ -1093,32 +1301,51 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 2.54 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
-		(symbol "dk_Trimmer-Potentiometers:TC33X-2-103E"
+		(symbol "dk_Tactile-Switches:B3U-1000P"
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "POT"
-				(at -5.334 4.318 0)
+			(property "Reference" "S"
+				(at 0 4.064 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "TC33X-2-103E"
-				(at 0.254 -2.794 0)
+			(property "Value" "B3U-1000P"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "digikey-footprints:Trimpot_3.8mmx3.6mm_TC33X-2-103E"
+			(property "Footprint" "digikey-footprints:Switch_Tactile_SMD_B3U-1000P"
 				(at 5.08 5.08 0)
 				(effects
 					(font
@@ -1128,7 +1355,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf"
+			(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf"
 				(at 5.08 7.62 0)
 				(effects
 					(font
@@ -1138,7 +1365,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "TRIMMER 10K OHM 0.1W J LEAD TOP"
+			(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
 				(at 5.08 25.4 0)
 				(effects
 					(font
@@ -1148,7 +1375,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "TC33X-2-103E"
+			(property "MPN" "B3U-1000P"
 				(at 5.08 12.7 0)
 				(effects
 					(font
@@ -1158,7 +1385,7 @@
 					(hide yes)
 				)
 			)
-			(property "Category" "Potentiometers, Variable Resistors"
+			(property "Category" "Switches"
 				(at 5.08 15.24 0)
 				(effects
 					(font
@@ -1168,7 +1395,7 @@
 					(hide yes)
 				)
 			)
-			(property "Family" "Trimmer Potentiometers"
+			(property "Family" "Tactile Switches"
 				(at 5.08 17.78 0)
 				(effects
 					(font
@@ -1178,7 +1405,7 @@
 					(hide yes)
 				)
 			)
-			(property "DK_Datasheet_Link" "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf"
+			(property "DK_Datasheet_Link" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf"
 				(at 5.08 20.32 0)
 				(effects
 					(font
@@ -1188,7 +1415,7 @@
 					(hide yes)
 				)
 			)
-			(property "DK_Detail_Page" "/product-detail/en/bourns-inc/TC33X-2-103E/TC33X-103ETR-ND/612858"
+			(property "DK_Detail_Page" "/product-detail/en/omron-electronics-inc-emc-div/B3U-1000P/SW1020CT-ND/1534357"
 				(at 5.08 22.86 0)
 				(effects
 					(font
@@ -1198,7 +1425,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Bourns Inc."
+			(property "Manufacturer" "Omron Electronics Inc-EMC Div"
 				(at 5.08 27.94 0)
 				(effects
 					(font
@@ -1218,7 +1445,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "TC33X-103ETR-ND Trimpot® TC33 - Open Frame"
+			(property "ki_keywords" "SW1020CT-ND B3U"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1227,10 +1454,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "TC33X-2-103E_0_1"
+			(symbol "B3U-1000P_0_1"
 				(polyline
 					(pts
-						(xy 0 5.08) (xy 0 3.175)
+						(xy -2.54 0) (xy -1.778 0)
 					)
 					(stroke
 						(width 0)
@@ -1242,20 +1469,65 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 3.175) (xy 0.635 3.175) (xy 0 1.905) (xy -0.635 3.175)
+						(xy -1.778 1.27) (xy 1.778 1.27)
 					)
 					(stroke
 						(width 0)
 						(type solid)
 					)
 					(fill
-						(type outline)
+						(type none)
+					)
+				)
+				(circle
+					(center -1.524 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -1.905 1.27) (xy -1.27 -1.27) (xy -0.635 1.27) (xy 0 -1.27) (xy 0.635 1.27) (xy 1.27 -1.27)
-						(xy 1.905 1.27) (xy 2.54 0)
+						(xy -1.016 2.794) (xy 1.016 2.794)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.794)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.778 0)
 					)
 					(stroke
 						(width 0)
@@ -1266,14 +1538,14 @@
 					)
 				)
 			)
-			(symbol "TC33X-2-103E_1_1"
+			(symbol "B3U-1000P_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "CCW"
+					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1286,12 +1558,12 @@
 					)
 				)
 				(pin passive line
-					(at 0 7.62 270)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "Wiper"
+					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1303,31 +1575,18 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "CW"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+24V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1399,7 +1658,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1411,7 +1670,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1442,12 +1701,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1519,7 +1783,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1531,7 +1795,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1562,12 +1826,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+BATT"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1639,7 +1908,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1651,7 +1920,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1682,12 +1951,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1778,6 +2052,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1797,6 +2072,36 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b68f5045-25df-4786-bf5f-2e1f6d957306")
+	)
+	(wire
+		(pts
+			(xy 110.49 146.05) (xy 114.3 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004ff737-b352-4480-9719-ce87dfdc7019")
+	)
+	(wire
+		(pts
+			(xy 124.46 106.68) (xy 127 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01df9aa8-8a22-48c5-8919-ca47cf16be16")
+	)
+	(wire
+		(pts
+			(xy 110.49 151.13) (xy 114.3 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07978821-4320-47d1-8be3-70e5ebc368ad")
 	)
 	(wire
 		(pts
@@ -1920,7 +2225,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 146.05) (xy 119.38 146.05)
+			(xy 121.92 151.13) (xy 123.19 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1930,7 +2235,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 151.13) (xy 119.38 151.13)
+			(xy 121.92 146.05) (xy 123.19 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1967,16 +2272,6 @@
 			(type default)
 		)
 		(uuid "7713756b-4790-4105-b60e-6f62da79397f")
-	)
-	(wire
-		(pts
-			(xy 127 106.68) (xy 124.46 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "803c642b-ffd2-4dbb-8ef9-d19ca0844974")
 	)
 	(wire
 		(pts
@@ -2017,16 +2312,6 @@
 			(type default)
 		)
 		(uuid "8b68d38c-0665-451f-8017-67dfac155a59")
-	)
-	(wire
-		(pts
-			(xy 124.46 106.68) (xy 124.46 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ed74a5a-4d79-44c9-928b-337922299baa")
 	)
 	(wire
 		(pts
@@ -2150,28 +2435,6 @@
 			)
 		)
 	)
-	(global_label "MISO{slash}G"
-		(shape input)
-		(at 232.41 105.41 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "03780990-e735-4a31-8b33-53ab5d4c24b8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 115.5919 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCK{slash}BATT"
 		(shape input)
 		(at 55.88 99.06 180)
@@ -2194,53 +2457,9 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "SCK{slash}BATT"
 		(shape input)
-		(at 203.2 105.41 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0e63cd73-8492-4a26-9143-dca28a64216f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.2 112.2657 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RST"
-		(shape input)
-		(at 267.97 105.41 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2e9f28b7-9e06-4d66-8e4f-b7658837834e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.97 111.8423 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DIM"
-		(shape input)
-		(at 132.08 99.06 90)
+		(at 195.58 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2248,14 +2467,58 @@
 			)
 			(justify left)
 		)
-		(uuid "31b1d559-4200-46ec-a85d-c902913cd4bd")
+		(uuid "11856f31-8ede-4622-aa1b-b592755803b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 92.7486 90)
+			(at 207.939 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI{slash}R"
+		(shape input)
+		(at 195.58 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18ce3e63-90c8-4f39-84e2-c34a91e99390")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.7619 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIM"
+		(shape input)
+		(at 124.46 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31b1d559-4200-46ec-a85d-c902913cd4bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.1486 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2282,9 +2545,31 @@
 			)
 		)
 	)
-	(global_label "+5V"
+	(global_label "GND"
 		(shape input)
-		(at 124.46 104.14 90)
+		(at 185.42 138.43 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46ed01d4-2b7d-4caf-b6e0-3f1a5dcaf6f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.42 145.2857 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RST"
+		(shape input)
+		(at 195.58 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2292,9 +2577,9 @@
 			)
 			(justify left)
 		)
-		(uuid "bda28785-0a9c-4196-820d-0c07fa851581")
+		(uuid "77121de3-7d75-432f-92a0-85edab34e56e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.46 96.0748 90)
+			(at 202.0123 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2304,24 +2589,24 @@
 			)
 		)
 	)
-	(global_label "SCK{slash}BATT"
+	(global_label "+5V"
 		(shape input)
-		(at 257.81 105.41 270)
+		(at 185.42 118.11 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "be5de2f1-9d62-49c5-8693-38458800102d")
+		(uuid "b51d544b-b10f-477b-9a21-3a03d2bc1da7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.81 117.769 90)
+			(at 185.42 111.2543 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2372,7 +2657,29 @@
 	)
 	(global_label "MISO{slash}G"
 		(shape input)
-		(at 119.38 146.05 0)
+		(at 195.58 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6aa87eb-ed41-4962-b5c0-f398fea4ba81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.7619 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO{slash}G"
+		(shape input)
+		(at 123.19 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2382,7 +2689,7 @@
 		)
 		(uuid "cb6facf5-b02a-4b4a-b325-f0cbbe2e6666")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.5619 146.05 0)
+			(at 133.3719 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,24 +2721,24 @@
 			)
 		)
 	)
-	(global_label "+5V"
+	(global_label "G"
 		(shape input)
-		(at 218.44 105.41 270)
+		(at 113.03 151.13 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "dd19c839-822e-4ff7-b103-1c46113a5088")
+		(uuid "d1b17691-ea21-4eab-b5cf-84061a039a13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.44 113.4752 90)
+			(at 113.03 146.8748 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2458,9 +2765,9 @@
 			)
 		)
 	)
-	(global_label "MOSI{slash}R"
+	(global_label "R"
 		(shape input)
-		(at 119.38 151.13 0)
+		(at 113.03 146.05 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2468,9 +2775,9 @@
 			)
 			(justify left)
 		)
-		(uuid "eb882978-c120-4c49-9049-f06a25232bc2")
+		(uuid "e9aea4ca-cdc1-4a4f-962b-3d5eb994e4cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.5619 151.13 0)
+			(at 113.03 141.7948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2482,22 +2789,22 @@
 	)
 	(global_label "MOSI{slash}R"
 		(shape input)
-		(at 246.38 105.41 270)
+		(at 123.19 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "f9dd5dca-4e69-4a7b-b588-3348d1d45256")
+		(uuid "eb882978-c120-4c49-9049-f06a25232bc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.38 115.5919 90)
+			(at 133.3719 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2528,7 +2835,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
 			(at 241.3 133.02 0)
 			(effects
 				(font
@@ -2609,7 +2916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06d580f0-c85b-4782-adab-14ff1da6575c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 254 46.99 0)
 			(effects
 				(font
@@ -2672,35 +2979,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 203.2 105.41 0)
+		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL")
+		(at 187.96 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1a1627ff-2680-4cbb-8032-6c07395ce80b")
-		(property "Reference" "TP3"
-			(at 205.74 100.8379 0)
+		(uuid "06e3eecd-85cb-4da4-867e-f2e2e2de52fa")
+		(property "Reference" "J1"
+			(at 181.61 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 205.74 103.3779 0)
+		(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
+			(at 181.61 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 208.28 105.41 0)
+		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+			(at 187.96 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,8 +3015,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 208.28 105.41 0)
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
+			(at 187.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,22 +3024,37 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 203.2 105.41 0)
+		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
+			(at 187.96 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "5"
+			(uuid "36feba4f-3878-4260-b1b4-627ac59aa27b")
 		)
 		(pin "1"
-			(uuid "630ebb77-c0af-4d12-85bb-66b961f5cf23")
+			(uuid "eeaf1fdd-0df1-4f8c-b90d-fbc00c8a8d86")
+		)
+		(pin "6"
+			(uuid "1693a6fd-1d46-4f9d-a1cd-73ecf07cf10c")
+		)
+		(pin "3"
+			(uuid "07b848e8-9a34-4af1-b237-7d49aa80d532")
+		)
+		(pin "2"
+			(uuid "8945451f-ea57-4e36-b6e7-90c3d61d9af4")
+		)
+		(pin "4"
+			(uuid "86b924a9-703a-49f2-9bfc-8a68977be1e3")
 		)
 		(instances
-			(project "Stoplight"
+			(project ""
 				(path "/dfe04a77-46d8-48da-bd63-07874d46d621"
-					(reference "TP3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2871,207 +3193,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 218.44 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "3adad5ab-201c-4e40-a4cd-a0d752bce662")
-		(property "Reference" "TP4"
-			(at 220.98 100.8379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V3"
-			(at 220.98 103.3779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 223.52 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 218.44 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "420361c1-dc26-49ef-9253-1cb5befe7351")
-		)
-		(instances
-			(project "Stoplight"
-				(path "/dfe04a77-46d8-48da-bd63-07874d46d621"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 257.81 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "495fcacf-4d1e-4475-ae7c-140bf782349d")
-		(property "Reference" "TP7"
-			(at 260.35 100.8379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SCK"
-			(at 260.35 103.3779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 262.89 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 262.89 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 257.81 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5ef9fa5-7c36-4fee-88a9-c47b1678363b")
-		)
-		(instances
-			(project "Stoplight"
-				(path "/dfe04a77-46d8-48da-bd63-07874d46d621"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 267.97 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "51a320a8-092c-4ac6-977c-53511073f4b9")
-		(property "Reference" "TP8"
-			(at 270.51 100.8379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RST"
-			(at 270.51 103.3779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 273.05 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 273.05 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 267.97 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89e59596-4a3c-4cbe-958f-9289187beeb9")
-		)
-		(instances
-			(project "Stoplight"
-				(path "/dfe04a77-46d8-48da-bd63-07874d46d621"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 67.31 29.21 0)
 		(unit 1)
@@ -3147,7 +3268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "592b24f9-6f04-4137-b3d8-451163b9c141")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 204.47 45.7199 0)
 			(effects
 				(font
@@ -3165,7 +3286,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 199.6948 43.18 0)
 			(effects
 				(font
@@ -3298,140 +3419,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 246.38 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "748cabb8-40a3-4be4-8839-dc43f84954fb")
-		(property "Reference" "TP6"
-			(at 248.92 100.8379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MOSI"
-			(at 248.92 103.3779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 251.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 246.38 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "420361c1-dc26-49ef-9253-1cb5befe7352")
-		)
-		(instances
-			(project "Stoplight"
-				(path "/dfe04a77-46d8-48da-bd63-07874d46d621"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 232.41 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "85b625cf-90f9-4d9e-89af-606e7d26ea20")
-		(property "Reference" "TP5"
-			(at 234.95 100.8379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MISO"
-			(at 234.95 103.3779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 237.49 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 232.41 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "420361c1-dc26-49ef-9253-1cb5befe7353")
-		)
-		(instances
-			(project "Stoplight"
-				(path "/dfe04a77-46d8-48da-bd63-07874d46d621"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 261.62 52.07 180)
 		(unit 1)
@@ -3441,7 +3428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c49f422-9b7e-4896-bee5-d09b02080d0c")
-		(property "Reference" "C13"
+		(property "Reference" "C2"
 			(at 265.43 50.7999 0)
 			(effects
 				(font
@@ -3459,7 +3446,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 260.6548 48.26 0)
 			(effects
 				(font
@@ -3535,7 +3522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "927659a9-7225-4d3e-aaa2-69b67fa6ea34")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR011"
 			(at 248.92 46.99 0)
 			(effects
 				(font
@@ -3598,140 +3585,6 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Trimmer-Potentiometers:TC33X-2-103E")
-		(at 132.08 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "971de3e6-7145-4ec0-8e68-1c0f8d51edb5")
-		(property "Reference" "POT1"
-			(at 132.08 110.49 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TC33X-2-103E"
-			(at 132.08 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "digikey-footprints:Trimpot_3.8mmx3.6mm_TC33X-2-103E"
-			(at 137.16 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf"
-			(at 137.16 99.06 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "TRIMMER 10K OHM 0.1W J LEAD TOP"
-			(at 137.16 81.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TC33X-2-103E"
-			(at 137.16 93.98 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Potentiometers, Variable Resistors"
-			(at 137.16 91.44 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Trimmer Potentiometers"
-			(at 137.16 88.9 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf"
-			(at 137.16 86.36 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns Inc."
-			(at 137.16 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 137.16 76.2 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31282186-1d3f-4760-8d91-e2a7c1bc2046")
-		)
-		(pin "3"
-			(uuid "8779eec7-5a39-40c4-9daf-390da4f0c2f5")
-		)
-		(pin "2"
-			(uuid "b2d8204f-e719-4e94-bacb-f3023b01cc27")
-		)
-		(instances
-			(project "Stoplight"
-				(path "/dfe04a77-46d8-48da-bd63-07874d46d621"
-					(reference "POT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 78.74 33.02 90)
 		(unit 1)
@@ -3757,7 +3610,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 78.74 34.798 90)
 			(effects
 				(font
@@ -3827,7 +3680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6177036-3480-48a3-9598-d0c38608fb65")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR013"
 			(at 261.62 64.77 0)
 			(effects
 				(font
@@ -3915,7 +3768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 91.44 34.798 90)
 			(effects
 				(font
@@ -4003,7 +3856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 139.7 67.31 0)
 			(effects
 				(font
@@ -4110,16 +3963,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 146.05 90)
+		(at 118.11 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c88d8e84-bbca-4959-89b6-cd0b1560a81d")
 		(property "Reference" "R3"
-			(at 114.3 139.7 90)
+			(at 118.11 153.416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4127,15 +3979,15 @@
 			)
 		)
 		(property "Value" "150"
-			(at 114.3 142.24 90)
+			(at 117.856 155.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 114.3 147.828 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 118.11 152.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,7 +3996,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 146.05 0)
+			(at 118.11 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4153,7 +4005,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 114.3 146.05 0)
+			(at 118.11 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +4014,7 @@
 			)
 		)
 		(property "Part Number" "ERA-3AEB151V"
-			(at 114.3 146.05 0)
+			(at 118.11 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +4023,7 @@
 			)
 		)
 		(property "URL" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-3AEB151V/1465834"
-			(at 114.3 146.05 0)
+			(at 118.11 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,7 +4074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "digikey-footprints:DIP-8_W7.62mm"
+		(property "Footprint" "digikey-footprints:SOIC-8_W3.9mm"
 			(at 68.58 91.44 0)
 			(effects
 				(font
@@ -4445,6 +4297,147 @@
 		)
 	)
 	(symbol
+		(lib_id "dk_Tactile-Switches:B3U-1000P")
+		(at 132.08 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfd84b3e-32dd-4966-afee-172f07f7479b")
+		(property "Reference" "S1"
+			(at 132.08 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "B3U-1000P"
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:Switch_Tactile_SMD_B3U-1000P"
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B3U-1000P"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Switches"
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "Tactile Switches"
+			(at 137.16 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf"
+			(at 137.16 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/omron-electronics-inc-emc-div/B3U-1000P/SW1020CT-ND/1534357"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Omron Electronics Inc-EMC Div"
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15d77cee-5a0f-4def-a25a-68681dbc841e")
+		)
+		(pin "1"
+			(uuid "147f5df9-79fa-4911-b432-832ea0d10ce6")
+		)
+		(instances
+			(project ""
+				(path "/dfe04a77-46d8-48da-bd63-07874d46d621"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 142.24 110.49 0)
 		(unit 1)
@@ -4538,7 +4531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 123.19 67.31 0)
 			(effects
 				(font
@@ -4579,7 +4572,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 151.13 90)
+		(at 118.11 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4587,7 +4580,7 @@
 		(dnp no)
 		(uuid "e6a6dc90-363b-4841-912e-c110366ef77b")
 		(property "Reference" "R4"
-			(at 114.046 152.654 90)
+			(at 118.11 141.224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,15 +4588,15 @@
 			)
 		)
 		(property "Value" "85"
-			(at 114.046 154.686 90)
+			(at 117.856 143.256 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 114.3 152.908 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 118.11 147.828 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +4605,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 151.13 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,7 +4614,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 114.3 151.13 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,7 +4623,7 @@
 			)
 		)
 		(property "Part Number" "ERJ-3EKF84R5V"
-			(at 114.3 151.13 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +4632,7 @@
 			)
 		)
 		(property "URL" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-3EKF84R5V/196495"
-			(at 114.3 151.13 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +4737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e815d841-b280-49d7-951d-68c314d686ef")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR010"
 			(at 200.66 60.96 0)
 			(effects
 				(font
@@ -4877,4 +4870,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
