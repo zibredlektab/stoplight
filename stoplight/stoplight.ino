@@ -1,15 +1,15 @@
 #include <EEPROM.h>
 
 #define BATT A1
-#define RED 1
-#define GREEN 0
+#define RED 0
+#define GREEN 1
 #define BUTTON 3
 
 #define HYSTERESIS 0.5
 #define DEBOUNCE 100
 
 #define GREENTOYELLOW 13.0
-#define YELLOWTORED 12.5
+#define YELLOWTORED 12.3
 #define REDTOFLASH 11.9
 
 
